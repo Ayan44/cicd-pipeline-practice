@@ -1,0 +1,21 @@
+{
+  "name": "cicd-pipeline-app",
+  "version": "1.0.0",
+  "description": "Simple CI/CD practice app",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "jest --coverage",
+    "build": "echo 'Build successful!'"
+  },
+  "keywords": [],
+  "author": "Ayan",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "supertest": "^6.3.3"
+  }
+}
